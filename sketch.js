@@ -17,6 +17,7 @@ function setup(){
 
     
     ground = new Ground(600,height,1200,20)
+    groundisground = new Ground(100,320,320,170)
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
@@ -46,6 +47,7 @@ function draw(){
     box1.display();
     box2.display();
     ground.display();
+    groundisground.display()
     pig1.display();
     log1.display();
 
